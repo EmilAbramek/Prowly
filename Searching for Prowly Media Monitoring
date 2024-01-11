@@ -1,38 +1,38 @@
 A) Searching for "Prowly Media Monitoring" on bing.com
-  1. Using the default "SEARCH" filter
+  1.
     FEATURE: Searching for "Prowly Media Monitoring" on bing.com using the default "SEARCH" filter
 
     SCENARIO OUTLINE: All search results for "Prowly Media Monitoring" phrase in bing.com
 
     GIVEN: I have internet access
     AND: I'm on bing.com website
-    WHEN: I type "Prowly Media Monitoring" into the search box
-    AND: I click the magnifying glass icon next to the search box
+    WHEN: I type "Prowly Media Monitoring" into the search bar
+    AND: I click the magnifying glass icon next to the search bar
     THEN: I'm taken to a page with all search results for the phrase "Prowly Media Monitoring"
-    BUT: The first few links may be ads
+    BUT: The first few results may be ads
 
-  2. Using the "VIDEOS" filter
+  2.
     FEATURE: Searching for "Prowly Media Monitoring" on bing.com using the "VIDEOS" filter
 
     SCENARIO OUTLINE: Video search results for "Prowly Media Monitoring" on bing.com
 
     GIVEN: I have internet access
     AND: I'm on bing.com website
-    WHEN: I type "Prowly Media Monitoring" into the search box
-    AND: I click the magnifying glass icon next to the search box
+    WHEN: I type "Prowly Media Monitoring" into the search bar
+    AND: I click the magnifying glass icon next to the search bar
     AND: I'm taken to a page with all search results for the phrase "Prowly Media Monitoring"
-    AND: I click the "VIDEOS" filter below the search box
+    AND: I click the "VIDEOS" filter below the search bar
     THEN: I'm taken to a page with video search results for the phrase "Prowly Media Monitoring"
 
-  3. Using the "NEWS" filter
+  3.
     FEATURE: Searching for "Prowly Media Monitoring" on bing.com using the "NEWS" filter
 
     SCENARIO OUTLINE: News search results for "Prowly Media Monitoring" on bing.com
 
     GIVEN: I have internet access
     AND: I'm on bing.com website
-    WHEN: I type "Prowly Media Monitoring" into the search box
-    AND: I click the magnifying glass icon next to the search box
+    WHEN: I type "Prowly Media Monitoring" into the search bar
+    AND: I click the magnifying glass icon next to the search bar
     AND: I'm taken to a page with all search results for the phrase "Prowly Media Monitoring"
-    AND: I click the "NEWS" filter below the search box
+    AND: I click the "NEWS" filter below the search bar
     THEN: I'm taken to a page with news search results for the phrase "Prowly Media Monitoring"
