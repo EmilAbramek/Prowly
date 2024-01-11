@@ -1,8 +1,8 @@
-A) Collecting information about the media monitoring module in Prowly using bing's "copilot".
-  1. Navigating to "copilot" after searching for "Prowly Media Monitoring Module" in bing's search bar
+A) Collecting informations about the Prowly Media Monitoring module using bing's "copilot".
+  1.
     FEATURE: Navigating to "copilot" via the "COPILOT" button below the search bar after searching phrase "Prowly Media Monitoring module"
 
-    SCENARIO OUTLINE: Informations about the media monitoring module in Prowly are generated and displayed by bing's "copilot"
+    SCENARIO OUTLINE: Informations about the Prowly Media Monitoring module are generated and displayed by bing's "copilot"
 
     GIVEN: I have internet access
     AND: I'm on bing.com website
@@ -10,4 +10,20 @@ A) Collecting information about the media monitoring module in Prowly using bing
     AND: I click the magnifying glass icon next to the search bar
     AND: I'm taken to a page with all search results for the phrase "Prowly Media Monitoring module"
     AND: I click the "COPILOT" button below the search bar
-    THEN: I'm taken to the "copilot" page where the answer to the phrase "Prowly Media Monitoring module" is already being generated
+    THEN: I'm taken to the "copilot" page
+    AND: Answer to the phrase "Prowly Media Monitoring module" is being generated
+    AND: Informations about the Prowly Media Monitoring module are displayed by bing's "copilot"
+
+  2.
+    FEATURE: Navigating to "copilot" directly from bing.com homepage and collecting informations about Prowly Media Monitoring module
+
+    SCENARIO OUTLINE: Informations about the Prowly Media Monitoring module are generated and displayed by bing's "copilot"
+
+    GIVEN: I have internet access
+    AND: I'm on bing.com website
+    WHEN: I click the "Chat" button at the top of the site
+    AND: I'm taken to the "copilot" page
+    AND: I enter the phrase "Prowly Media Monitoring module" in the "Ask me anything..." field at the bottom of the site
+    AND: I click the "submit" button (blue arrow icon)
+    THEN: Answer to the phrase "Prowly Media Monitoring module" is being generated
+    AND: Informations about the Prowly Media Monitoring module are displayed by bing's "copilot"
