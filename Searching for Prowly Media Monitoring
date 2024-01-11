@@ -11,4 +11,16 @@ A) Searching for "Prowly Media Monitoring" on bing.com
     THEN: I'm taken to a page with all search results for the phrase "Prowly Media Monitoring"
     BUT: The first few links may be ads
 
+2. Using the "VIDEOS" filter
+    FEATURE: Searching for "Prowly Media Monitoring" on bing.com using the "VIDEOS" filter
+
+    SCENARIO OUTLINE: Video search results for "Prowly Media Monitoring" on bing.com
+
+    GIVEN: I have internet access
+    AND: I'm on bing.com website
+    WHEN: I type "Prowly Media Monitoring" into the search box
+    AND: I click the magnifying glass icon next to the search box
+    AND: I'm taken to a page with all search results for the phrase "Prowly Media Monitoring"
+    AND: I click the "VIDEOS" filter below the search box
+    THEN: I'm taken to a page with video search results for the phrase "Prowly Media Monitoring"
   
